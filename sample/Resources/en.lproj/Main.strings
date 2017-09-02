@@ -1,0 +1,30 @@
+
+/* Class = "UINavigationItem"; title = "詳細"; ObjectID = "2bK-xp-bbU"; */
+"2bK-xp-bbU.title" = "Detail";
+
+/* Class = "UILabel"; accessibilityLabel = "chapter-author"; ObjectID = "6c9-JA-LDb"; */
+"6c9-JA-LDb.accessibilityLabel" = "chapter-author";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "6c9-JA-LDb"; */
+"6c9-JA-LDb.text" = "Subtitle";
+
+/* Class = "UILabel"; accessibilityLabel = "Chapter Title"; ObjectID = "C94-Oe-3gw"; */
+"C94-Oe-3gw.accessibilityLabel" = "Chapter Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "C94-Oe-3gw"; */
+"C94-Oe-3gw.text" = "Title";
+
+/* Class = "UILabel"; text = "Author Name"; ObjectID = "RCw-eM-01c"; */
+"RCw-eM-01c.text" = "Author Name";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Chapter Item"; ObjectID = "TbC-QN-Oes"; */
+"TbC-QN-Oes.accessibilityLabel" = "Chapter Item";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"; ObjectID = "q3f-oG-004"; */
+"q3f-oG-004.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor";
+
+/* Class = "UINavigationItem"; title = "目次"; ObjectID = "x9P-LH-9ok"; */
+"x9P-LH-9ok.title" = "Chapters";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "z1A-YN-NK7"; */
+"z1A-YN-NK7.text" = "Label";

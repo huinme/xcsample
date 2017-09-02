@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  sample
+
+  Created by huin on 2017/08/28.
+  Copyright © 2017年 www.huin.me. All rights reserved.
+*/
+"chapter-number-and-title" = "Chap.%ld %@";
