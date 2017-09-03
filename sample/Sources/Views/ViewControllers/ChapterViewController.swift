@@ -11,6 +11,7 @@ class ChapterViewController: UIViewController {
 
     @objc static func instantiateFromStoryboard() -> ChapterViewController! {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: self))
+        // swiftlint:disable:next force_cast
         return storyboard.instantiateViewController(withIdentifier: String(describing: self)) as! ChapterViewController
     }
 

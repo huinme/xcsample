@@ -1,6 +1,6 @@
 import XCTest
 
-class sampleUITests: XCTestCase {
+class SampleUITests: XCTestCase {
 
     var app: XCUIApplication!
 
