@@ -2,10 +2,14 @@ import XCTest
 
 class sampleUITests: XCTestCase {
 
+    var app: XCUIApplication!
+
+    override func setUp() {
+        app = XCUIApplication()
+        app.launch()
+    }
+
 //    func testCaptureChapterListView() {
-//        let app = XCUIApplication()
-//        app.launch()
-//
 //        // Snapshot : Application's first view
 //        let screenshot: XCUIScreenshot = app.screenshot()
 //        let attachment = XCTAttachment(screenshot: screenshot)
@@ -15,9 +19,6 @@ class sampleUITests: XCTestCase {
 //    }
 
 //    func testScreenshotAllChapters() {
-//        let app = XCUIApplication()
-//        app.launch()
-//
 //        // 起動直後の画面
 //        let screenshot = XCUIScreen.main.screenshot()
 //        let attachment = XCTAttachment(screenshot: screenshot)
@@ -45,9 +46,6 @@ class sampleUITests: XCTestCase {
     // ensure to enable "Capture screenshots automatically"
     // and "Delete when each test succeeds" in editing scheme view.
 //    func testScreenshotAllChapters() {
-//        let app = XCUIApplication()
-//        app.launch()
-//
 //        let cells = app.tables
 //            .children(matching: .cell)
 //            .matching(identifier: "chapter-item")
@@ -61,12 +59,10 @@ class sampleUITests: XCTestCase {
 //        }
 //    }
 
-//    // Before execute this test,
-//    // ensure to enable "Capture screenshots automatically"
-//    // and "Delete when each test succeeds" in editing scheme view.
+    // Before execute this test,
+    // ensure to enable "Capture screenshots automatically"
+    // and "Delete when each test succeeds" in editing scheme view.
     func testScreenshotAllChapters() {
-        let app = XCUIApplication()
-        app.launch()
 
         let cells = app.tables
             .children(matching: .cell)

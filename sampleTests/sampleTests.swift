@@ -7,14 +7,13 @@
 //
 
 import XCTest
+@testable import sample
 
 class sampleTests: XCTestCase {
 
-    func testSaveUUID() {
-        let uuid = UUID().uuidString
+    let chapters = DataStore.fetchChapters()
 
-        let attachment = XCTAttachment(string: "UUID : \(uuid)")
-        attachment.lifetime = .keepAlways
-        add(attachment)
+    func testNumberOfChapters() {
+        XCTAssert(chapters.count == 14, "Number of chapters was not expected value.")
     }
 }
